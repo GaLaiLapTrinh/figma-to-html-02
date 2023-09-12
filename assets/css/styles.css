@@ -9,4 +9,79 @@ html {
 /* khôi phục cỡ chữ mặc định tính theo rem */
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ====================== common ==================== */
+a {
+  text-decoration: none;
+}
+
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ====================== header ==================== */
+.header {
+  background: #fff;
+}
+
+.header.fixed {
+  z-index: 1;
+  position: sticky;
+  top: -44px;
+}
+
+.header .body {
+  padding: 52px 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  margin-left: auto;
+}
+
+.nav ul {
+  display: flex;
+}
+
+.nav a {
+  color: #2f3a3b;
+  padding: 8px 19.5px;
+}
+
+.action .action-link:hover,
+.nav a:hover {
+  color: #2f3a3b;
+  /* font-weight: 600; */
+  text-shadow: 1px 0 0 currentColor;
+}
+
+.action .action-link {
+  margin-left: 157.5px;
+  color: #494949;
+  text-align: center;
+}
+
+.action .action-btn {
+  margin-left: 24px;
+  display: inline-block;
+  padding: 0 16px;
+  min-width: 108px;
+  line-height: 46px;
+  color: #1ebfc1;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+}
+
+.action .action-btn:hover {
+  background: #1ebfc1;
+  color: white;
+  transition: 0.3s;
 }
