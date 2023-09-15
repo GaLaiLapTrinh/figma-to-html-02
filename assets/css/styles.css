@@ -40,8 +40,8 @@ a {
 .btn:hover {
   opacity: 0.9;
 }
-
-.heading-lv2 {
+.heading-lv2,
+.heading-lv2 a {
   color: #0d1111;
   font-size: 4.2rem;
   font-weight: 700;
@@ -363,6 +363,8 @@ a {
 
 .feature .feature-list .item-title {
   margin-top: 26px;
+}
+.feature .feature-list .item-title a {
   color: #0d1111;
   font-size: 2rem;
   font-weight: 600;
@@ -431,7 +433,7 @@ a {
   margin-top: 79px;
 }
 
-.course .heading-lv3 {
+.course .heading-lv3 a {
   color: #0d1111;
   font-family: Poppins;
   font-size: 22px;
@@ -668,6 +670,54 @@ a {
   margin-top: 18px;
   margin-right: 410px;
   color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
+}
+
+/* ====================== footer ==================== */
+.footer {
+  background-color: #fff;
+}
+
+.footer .row-top {
+  padding: 131px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .title {
+  color: #2e2e2e;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.footer .list li {
+  margin-top: 18px;
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list li:first-child {
+  margin-top: 26px;
+}
+
+.footer li a {
+  color: #535353;
+  font-size: 1.6rem;
+  line-height: normal;
+}
+
+.footer .list .social-icon {
+  margin-right: 9px;
+}
+
+.footer .copyright {
+  margin-top: 80px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #b0b5b4;
   font-size: 1.8rem;
   line-height: normal;
 }
