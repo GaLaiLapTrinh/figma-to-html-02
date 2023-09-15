@@ -129,6 +129,13 @@ a {
   font-size: 1.4rem;
 }
 
+.hero .content-block .top-title-lv2 {
+  color: #767e7e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
 .hero .content-block .title {
   margin-top: 18px;
   max-width: 458px;
