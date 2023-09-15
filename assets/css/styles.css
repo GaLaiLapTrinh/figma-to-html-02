@@ -709,6 +709,11 @@ a {
   line-height: normal;
 }
 
+.footer .list-item5 a {
+  display: flex;
+  align-items: center;
+}
+
 .footer .list .social-icon {
   margin-right: 9px;
 }
