@@ -30,6 +30,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   padding: 0 41px;
+  min-width: 186px;
   line-height: 68px;
   border-radius: 14px;
   background: #1ebfc1;
@@ -649,4 +650,24 @@ a {
 .feedback .avar-fb-6 {
   top: 374px;
   left: 1060px;
+}
+
+/* ====================== admit ==================== */
+.admit {
+  margin-top: 130px;
+  padding: 76px 135px 88px;
+  background: #def6f5;
+}
+
+.admit .body {
+  display: flex;
+  align-items: center;
+}
+
+.admit .admit-left .desc {
+  margin-top: 18px;
+  margin-right: 410px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  line-height: normal;
 }
